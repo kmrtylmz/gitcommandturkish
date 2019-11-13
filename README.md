@@ -57,9 +57,10 @@ $ git tag -v mytag# Verifies the signed tag
 
 $ git push  **// Pushes your local commits to the remote repository **  
 
-- [x] Verified Commits
+
 
 ```
+- [x] Verified Commits
 
 License
 ----
