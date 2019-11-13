@@ -22,8 +22,7 @@ $ git tag -a v0.1 46b5d255dd9c901801eead7c5f8e9c3a4b3d34f4
 
 ```
 [mit]: <https://github.com/kmrtylmz/Testing/blob/master/LICENSE/>
-License
-----
+
 
 ## GNUPG Steps
 
@@ -62,5 +61,7 @@ $ git push  **// Pushes your local commits to the remote repository **
 
 ```
 
+License
+----
 
 See [ MIT ][mit]
