@@ -19,8 +19,8 @@ $ git commit -m "First Commit Message"
 $ git push -u origin master 
 
 ```
-
+[mit]: <http://daringfireball.net/projects/markdown/>
 License
 ----
 
-See [MIT] (https://github.com/kmrtylmz/Testing/blob/master/LICENSE)
+See [ MIT ][mit]
