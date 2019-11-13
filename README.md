@@ -25,4 +25,42 @@ $ git tag -a v0.1 46b5d255dd9c901801eead7c5f8e9c3a4b3d34f4
 License
 ----
 
+## GNUPG Steps
+
+on GitHub so other people can trust that the changes come from a trusted source 
+
+```sh
+$ gpg --full-generate-key 
+$ gpg --list-secret-keys --keyid-format LONG  **// check list**
+
+/Users/hubot/.gnupg/secring.gpg
+------------------------------------
+sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
+uid                          Hubot 
+ssb   4096R/42B317FD4BA89E7A 2016-03-10
+
+${3AA5C34371567BD2} **// GPG key ID**
+
+$ gpg --armor --export  **GPG_KEY_ID [ASCI]**
+
+Copy your GPG key, beginning with **-----BEGIN PGP PUBLIC KEY BLOCK-----**
+ and ending with **-----END PGP PUBLIC KEY BLOCK-----**.
+
+> **Add on Github** -> Settings -> SSH & GPG -> New GPG key -> Pasting 
+
+$ git config --global user.signingkey GPG_KEY_ID  **// Telling Git your signed key
+
+$ git commit -S -m your commit message# Creates a signed commit   **// Add -S flag** 
+
+$ git tag -s mytag# Creates a signed tag 
+
+$ git tag -v mytag# Verifies the signed tag
+
+$ git push  **// Pushes your local commits to the remote repository **  
+
+- [x] Verified Commits
+
+```
+
+
 See [ MIT ][mit]
