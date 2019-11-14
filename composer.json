@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nahid/jsonq": "^5.2"
+    }
+}
