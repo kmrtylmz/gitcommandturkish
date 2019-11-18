@@ -11,9 +11,9 @@ $ git config -l
 $ git init // Local git reposu oluşturmak için .git
 $ git remote add origin HTTPS_URL 
 $ git remote -v 
-$ git init 
 $ git status
-$ git add * 
+$ git add *
+$ git add -f .htaccess  // Htaccessi eklemek için. -Force 
 $ git status 
 $ git checkout
 $ git commit -m "First Commit Message" 
