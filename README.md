@@ -8,6 +8,7 @@ $ cd test
 $ git config --global user.name "Mert Yılmaz"
 $ git config --global user.email "k.mrtylmz2@gmail.com"
 $ git config -l
+$ git init // Local git reposu oluşturmak için .git
 $ git remote add origin HTTPS_URL 
 $ git remote -v 
 $ git init 
