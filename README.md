@@ -17,11 +17,21 @@ $ git add -f .htaccess  // Htaccessi eklemek için. -Force
 $ git status 
 $ git checkout
 $ git commit -m "First Commit Message" 
+$ git push -f origin master // ilk repo olusturulduktan sonra silip locali remote ediyor.
 $ git push -u origin master 
 
 $ git tag -a v0.1 46b5d255dd9c901801eead7c5f8e9c3a4b3d34f4
 
 ```
+```sh
+$ git branch  //  Branchleri listeler
+$ git checkout -b feature_x  // feature_x adı altında bir dal olusturup ona gecer
+$ git checkout master // mastera geçmek
+$ git branch -d feature_x //  branchi silmek için
+$ git push origin <dal>  // remotedaki branchlara göndermek için
+
+```
+
 [mit]: <https://github.com/kmrtylmz/Testing/blob/master/LICENSE/>
 
 
