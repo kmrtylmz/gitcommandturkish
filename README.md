@@ -32,6 +32,13 @@ $ git push origin <dal>  // remotedaki branchlara göndermek için
 
 ```
 
+```sh
+$ git log // Commitleri görmek için Commıt ID Hashlenmiş hali
+$ git checkout --FİLE_NAME   // Dosyadaki değişikleri bir önceki commite ceker 
+$ git checkout COMMIT_ID //  Id belirtilen commite geri dönüş yapar
+
+```
+ 
 [mit]: <https://github.com/kmrtylmz/Testing/blob/master/LICENSE/>
 
 
