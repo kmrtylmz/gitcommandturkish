@@ -21,6 +21,8 @@ $ git push -f origin master // ilk repo olusturulduktan sonra silip locali remot
 $ git push -u origin master 
 
 $ git tag -a v0.1 46b5d255dd9c901801eead7c5f8e9c3a4b3d34f4
+$ git tag -a v0.1 46b5d25  -m "Message"
+$ git push origin --tags
 
 ```
 ```sh
