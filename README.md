@@ -38,6 +38,14 @@ $ git checkout --FİLE_NAME   // Dosyadaki değişikleri bir önceki commite cek
 $ git checkout COMMIT_ID //  Id belirtilen commite geri dönüş yapar
 
 ```
+
+```sh
+git rm --cached -r .idea  // Remote ' daki dosyayı silme
+git commit -m "message"
+git push 
+
+
+```
  
 [mit]: <https://github.com/kmrtylmz/Testing/blob/master/LICENSE/>
 
