@@ -1,5 +1,7 @@
 
-#images klasörünü engelle
+#images klasörünü engelle /images/
 
-#images Yorum yapıldı gitsin istiyorum
-vendor/
+# Örnek .gitignore olması için burdan devam edilebilir.
+/vendor/
+.idea/
+/node_modules
