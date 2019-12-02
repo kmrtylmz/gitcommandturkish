@@ -1,7 +1,7 @@
-# Testing
+# Türkçe Git Komutları
 [![MyAdress](https://github.com/kmrtylmz/Testing/blob/master/images/trees.png)](https://kmrtylmz.com/)
 
-## Steps 
+## Komutlar
 
 
 
@@ -32,13 +32,17 @@
 | `$ git tag -a v0.1 46b5d25 -m "Message"` | `son commit Idsinin 7 hanesiyle release oluşturulur` |
 | `$ git push origin --tags` | `remote repository'e tag eklenir` |
 
+.<br/>
+.<br/>
+.<br/>
+..
 
 
  
 [mit]: <https://github.com/kmrtylmz/Testing/blob/master/LICENSE/>
 
 
-## GNUPG Steps
+## GNUPG Doğrulanmış Komutlar
 
 on GitHub so other people can trust that the changes come from a trusted source 
 
@@ -74,7 +78,6 @@ $ git push  **// Pushes your local commits to the remote repository **
 
 
 ```
-- [x] Verified Commits
 
 License
 ----
