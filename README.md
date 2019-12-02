@@ -3,10 +3,10 @@
 
 ## Steps 
 
-| $#sadasdasdasddkfsd | sadsadsadsad |
+| `$#sadasdasdasddkfsd` | sadsadsadsad |
 |--------------------:|:------------:|
 
-```sh
+``sh
 $ cd test
 $ git config --global user.name "Mert Yılmaz"
 $ git config --global user.email "k.mrtylmz2@gmail.com"
@@ -35,7 +35,7 @@ $ git checkout master // mastera geçmek
 $ git branch -d feature_x //  branchi silmek için
 $ git push origin <dal>  // remotedaki branchlara göndermek için
 
-```
+``
 
 ```sh
 $ git log // Commitleri görmek için Commıt ID Hashlenmiş hali
